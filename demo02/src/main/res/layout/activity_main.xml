@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+侧滑布局里面的子节点最多有两个：
+把第一个子节点的布局设置为左边的侧滑布局
+把第二个子节点的布局设置为主视图布局
+-->
+<android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qf.demo02.MainActivity"
+    android:id="@+id/layout">
+
+
+    <!-- 侧滑界面-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5f00"
+        android:text="左边侧滑布局" />
+
+    <!-- 主界面-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#50f0"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主界面"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击打开侧滑布局"
+            android:onClick="openSlidingLayout"
+            />
+    </LinearLayout>
+
+
+</android.support.v4.widget.SlidingPaneLayout>

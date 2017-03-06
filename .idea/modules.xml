@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/160832/160832.iml" filepath="$PROJECT_DIR$/160832/160832.iml" />
+      <module fileurl="file://$PROJECT_DIR$/160943/160943.iml" filepath="$PROJECT_DIR$/160943/160943.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LM.Story2.2.iml" filepath="$PROJECT_DIR$/LM.Story2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo02/demo02.iml" filepath="$PROJECT_DIR$/demo02/demo02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleview/recycleview.iml" filepath="$PROJECT_DIR$/recycleview/recycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rvdemo/rvdemo.iml" filepath="$PROJECT_DIR$/rvdemo/rvdemo.iml" />
+    </modules>
+  </component>
+</project>
